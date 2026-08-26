@@ -105,7 +105,12 @@ export default function About() {
                     GET DIRECTIONS
                   </a>
 
-
+  <a
+                    href="https://wa.me/919512590080"
+                    className="text-[#554300] font-semibold rounded-xl text-[14px] border px-5 border-[#BF9772] py-2"
+                    target="_blank">
+                    CLICK TO RSVP
+                  </a>
                   
     {/* <button className="text-[#554300] font-semibold rounded-xl text-[14px] border px-5 border-[#BF9772] py-2">
       ADD TO CALENDAR
