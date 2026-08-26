@@ -64,7 +64,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="relative flex flex-col justify-center items-center md:mt-60 mt-40 md:mb-50 mb-20 overflow-hidden pb-30 ">
+        <div className="relative flex flex-col justify-center items-center md:mt-60 mt-40 md:mb-50 mb-10 overflow-hidden pb-30 ">
           <div
             className="absolute top-0 left-1/2 -translate-x-1/2 md:w-[55%] md:h-[55%] w-[100%] h-[53%] bg-[url('/assets/vector.png')] bg-center bg-no-repeat md:bg-contain
    bg-cover z-10 md:mt-150 mt-110"
