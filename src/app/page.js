@@ -114,7 +114,7 @@ export default function Home() {
               WE ARE EXCITED TO SEE YOU
             </h2>
             <h2 className="text-[#1B1C1A] md:text-4xl text-[17px] text-center font-playfair-display uppercase mt-4 italic">
-              AT OUR WEDDING
+              AT OUR Engagement
             </h2>
           </div>
         </div>
