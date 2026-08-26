@@ -69,7 +69,7 @@ export default function CountdownSection() {
     <section className="w-full md:pb-20 pb-10 text-center">
 
       {/* TAP TO REVEAL */}
-      {!showCountdown && (
+      {/* {!showCountdown && (
         <button
           onClick={() => setShowCountdown(true)}
           className="group flex flex-col items-center mx-auto cursor-pointer"
@@ -82,7 +82,47 @@ export default function CountdownSection() {
             ⌄
           </span>
         </button>
-      )}
+      )} */}
+
+      {!showCountdown && (
+  <button
+    onClick={() => setShowCountdown(true)}
+    className="group flex flex-col items-center mx-auto cursor-pointer"
+  >
+    <span
+      className="
+        font-serif
+        text-[#BF9772]
+        tracking-[4px]
+        text-[14px]
+        md:text-xl
+        animate-pulse
+      "
+    >
+      TAP TO REVEAL DATE
+    </span>
+
+    <span className="relative mt-3 flex items-center justify-center">
+      {/* Soft glow/ripple */}
+      <span className="absolute w-10 h-10 rounded-full border border-[#BF9772]/40 animate-ping" />
+
+      {/* Arrow */}
+      <span
+        className="
+          relative
+          text-[#BF9772]
+          text-3xl
+          animate-bounce
+          transition-all
+          duration-300
+          group-hover:scale-125
+        "
+      >
+        ↓
+      </span>
+    </span>
+  </button>
+)}
 
       {/* COUNTDOWN */}
       {showCountdown && (
