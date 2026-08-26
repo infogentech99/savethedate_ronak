@@ -7,7 +7,8 @@ export default function About() {
     bg-cover bg-no-repeat bg-top md:bg-center w-full overflow-hidden relative"
     >
       <div className="md:pb-0 lg:pb-0 relative z-10">
-        <div className="flex flex-col justify-center items-center  md:mt-30 mt-20 md:mb-50 mb-20">
+        <div className="flex flex-col justify-center items-center  md:mt-30 mt-0 md:mb-50 mb-20">
+          <img src="/assets/vectorn.png" alt="element3" className="h-8 md:mb-5 mb-3" />
           <h2 className="text-[#BF9772] md:text-2xl text-[30px]  lg:text-7xl font-koh-santepheap-thin leading-12 md:leading-16 uppercase">
             About Us
           </h2>
@@ -52,7 +53,7 @@ export default function About() {
         </div>
 
        
-<div className="relative flex flex-col justify-center items-center md:mt-90 mt-60 md:mb-50 mb-20 overflow-hidden pb-30 ">
+<div className="relative flex flex-col justify-center items-center md:mt-60 mt-40 md:mb-50 mb-20 overflow-hidden pb-30 ">
 
   {/* Background Vector */}
   <div className="absolute top-0 left-1/2 -translate-x-1/2 md:w-[55%] md:h-[55%] w-[100%] h-[53%] bg-[url('/assets/vector.png')] bg-center bg-no-repeat md:bg-contain bg-cover -z-10 md:mt-150 mt-110"></div>
@@ -175,7 +176,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center md:mt-50 mt-30 ">
+        <div className="flex flex-col justify-center items-center md:mt-50 mt-20 ">
           <h2 className="text-[#BF9772] md:text-2xl text-[30px]  lg:text-[60px] font-koh-santepheap-thin leading-12 md:leading-20">
             Thank You !
           </h2>
@@ -208,7 +209,7 @@ export default function About() {
 </div>
         
 
-        <img src="/assets/thank_bg.webp" alt="element3" className="mt-30 " />
+        <img src="/assets/thank_bg.webp" alt="element3" className="md:mt-30 mt-20 " />
       </div>
     </div>
   );
