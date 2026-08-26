@@ -79,7 +79,7 @@ export default function About() {
     Hotel Atithi Devo Bhava
   </h2>
 
-  <h2 className="text-[#4D4635] md:text-[16px] text-[15px] text-center font-playfair-display mt-3">
+  <h2 className="text-[#4D4635] md:text-[16px] text-[15px] text-center font-playfair-display mt-3 md:px-0 px-10">
     150 Feet Ring Rd, Near Westwood School, Ronki, Rajkot, Gujarat 360028
   </h2>
 
@@ -96,13 +96,7 @@ export default function About() {
                   </a>
 
 
-                   <a
-                    href="https://wa.me/971507757964"
-                    className="text-[#554300] font-semibold rounded-xl text-[14px] border px-5 border-[#BF9772] py-2"
-                    target="_blank">
-                    CLICK TO RSVP
-                  </a>
-
+                  
     {/* <button className="text-[#554300] font-semibold rounded-xl text-[14px] border px-5 border-[#BF9772] py-2">
       ADD TO CALENDAR
     </button> */}
