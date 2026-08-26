@@ -208,7 +208,7 @@ export default function About() {
 </div>
         
 
-        <img src="/assets/thank_bg.png" alt="element3" className="mt-30 " />
+        <img src="/assets/thank_bg.webp" alt="element3" className="mt-30 " />
       </div>
     </div>
   );

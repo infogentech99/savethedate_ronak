@@ -84,7 +84,7 @@ export default function Home() {
           </div>
           <div>
             <img
-              src="/assets/save_image.png"
+              src="/assets/save_image.webp"
               alt="element3"
               className="md:mt-10"
             />
