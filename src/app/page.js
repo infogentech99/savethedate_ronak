@@ -92,7 +92,7 @@ export default function Home() {
 
           <div className="flex flex-col justify-center items-center  md:mt-50 mt-30 md:mb-50 mb-30">
             <h2 className="text-[#BF9772] md:text-[20px] text-[15px] text-center font-jacques-francois">
-              We’re Getting Engagement
+              We’re Getting Engaged 💍
             </h2>
             <h2 className="text-[#BF9772] md:text-2xl text-2xl  lg:text-7xl font-koh-santepheap-thin leading-12 md:leading-16 uppercase mt-6">
               Ronak & Sujal
@@ -103,7 +103,6 @@ export default function Home() {
           </div>
 
           <CountdownSection />
-
           <div>
             <h2 className="text-[#BF9772] md:text-xl text-[16px] text-center font-jacques-francois mt-18">
               WE ARE EXCITED TO SEE YOU
