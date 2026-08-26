@@ -6,7 +6,7 @@ export default function About() {
       className="bg-[url('/assets/about_bg.png')] bg-white
     bg-cover bg-no-repeat bg-top md:bg-center w-full overflow-hidden relative"
     >
-      <div className="md:pb-50 lg:pb-0 relative z-10 md:pb-24 ">
+      <div className="md:pb-0 lg:pb-0 relative z-10">
         <div className="flex flex-col justify-center items-center  md:mt-30 mt-20 md:mb-50 mb-20">
           <h2 className="text-[#BF9772] md:text-2xl text-[30px]  lg:text-7xl font-koh-santepheap-thin leading-12 md:leading-16 uppercase">
             About Us
@@ -17,16 +17,16 @@ export default function About() {
           <div className="relative flex justify-center">
             <img src="/assets/ronak_img.png" alt="element3" className="md:h-150 h-55" />
 
-            <div className="absolute md:-bottom-40 -bottom-30 z-10 md:w-120 w-45 md:p-10 p-5 border border-white/30 bg-white/20 backdrop-blur-md rounded-xl shadow-lg">
-              <h2 className="text-black md:text-[25px] text-[15px] text-center font-semibold font-playfair-display">
+            <div className="absolute md:-bottom-20 -bottom-10 z-10 md:w-120 w-45 md:p-10 p-5 border border-white/30 bg-white/20 backdrop-blur-md rounded-xl shadow-lg">
+              <h2 className="text-black md:text-[25px] text-[18px] text-center font-semibold font-playfair-display">
                 Ronak Rakhasiya
               </h2>
 
-              <h2 className="text-[#4D4635] md:text-[16px] text-[10px] text-center font-playfair-display mt-3">
+              {/* <h2 className="text-[#4D4635] md:text-[16px] text-[10px] text-center font-playfair-display mt-3">
                 An architect of dreams with a penchant for classic cars and
                 unscripted adventures. His quiet confidence is the perfect
                 anchor to her spirit.
-              </h2>
+              </h2> */}
             </div>
           </div>
 
@@ -37,25 +37,25 @@ export default function About() {
           <div className="relative flex justify-center">
             <img src="/assets/bride_img.png" alt="element3" className="md:h-150 h-55" />
 
-            <div className="absolute md:-bottom-40 -bottom-30 z-10 md:w-120 w-45 md:p-10 p-5 border border-white/30 bg-white/20 backdrop-blur-md rounded-xl shadow-lg">
-              <h2 className="text-black md:text-[25px] text-[15px] text-center font-semibold font-playfair-display">
+            <div className="absolute md:-bottom-20 -bottom-10 z-10 md:w-120 w-45 md:p-10 p-5 border border-white/30 bg-white/20 backdrop-blur-md rounded-xl shadow-lg">
+              <h2 className="text-black md:text-[25px] text-[18px] text-center font-semibold font-playfair-display">
                 Sujal Naliapara
               </h2>
 
-              <h2 className="text-[#4D4635] md:text-[16px] text-[10px] text-center font-playfair-display mt-3">
+              {/* <h2 className="text-[#4D4635] md:text-[16px] text-[10px] text-center font-playfair-display mt-3">
                 A lover of poetry, rainy afternoons, and the quiet moments
                 between the chaos. She brings a grounding warmth to every room
                 she enters.
-              </h2>
+              </h2> */}
             </div>
           </div>
         </div>
 
        
-<div className="relative flex flex-col justify-center items-center md:mt-100 mt-70 md:mb-50 mb-20 overflow-hidden pb-30 ">
+<div className="relative flex flex-col justify-center items-center md:mt-90 mt-60 md:mb-50 mb-20 overflow-hidden pb-30 ">
 
   {/* Background Vector */}
-  <div className="absolute top-0 left-1/2 -translate-x-1/2 md:w-[55%] md:h-[55%] w-[100%] h-[50%] bg-[url('/assets/vector.png')] bg-center bg-no-repeat md:bg-contain bg-cover -z-10 md:mt-150 mt-110"></div>
+  <div className="absolute top-0 left-1/2 -translate-x-1/2 md:w-[55%] md:h-[55%] w-[100%] h-[55%] bg-[url('/assets/vector.png')] bg-center bg-no-repeat md:bg-contain bg-cover -z-10 md:mt-150 mt-110"></div>
 
   <h2 className="text-[#BF9772] md:text-[20px] text-[15px] text-center font-jacques-francois">
     Celebrations
@@ -75,7 +75,17 @@ export default function About() {
     A beautiful beginning to our forever
   </h2>
 
-  <h2 className="text-[#735C00] md:text-xl text-[16px] text-center font-jacques-francois md:mt-25 mt-20 uppercase">
+<div className="">
+<h2 className="text-[#735C00] md:text-[16px] text-[15px] text-center font-montserrat mt-3 font-semibold">
+    DATE
+  </h2>
+  <h2 className="text-black md:text-[16px] text-[15px] text-center font-playfair-display mt-3">
+    30 AUGUST 2026
+  </h2>
+</div>
+
+
+  <h2 className="text-[#735C00] md:text-xl text-[16px] text-center font-jacques-francois md:mt-20 mt-20 uppercase">
     Hotel Atithi Devo Bhava
   </h2>
 
@@ -160,7 +170,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center mt-30">
+        <div className="flex flex-col justify-center items-center md:mt-50 mt-30 ">
           <h2 className="text-[#BF9772] md:text-2xl text-[30px]  lg:text-[60px] font-koh-santepheap-thin leading-12 md:leading-20">
             Thank You !
           </h2>
@@ -193,7 +203,7 @@ export default function About() {
 </div>
         
 
-        <img src="/assets/thank_bg.png" alt="element3" className="mt-30" />
+        <img src="/assets/thank_bg.png" alt="element3" className="mt-30 " />
       </div>
     </div>
   );
