@@ -55,7 +55,7 @@ export default function About() {
 <div className="relative flex flex-col justify-center items-center md:mt-90 mt-60 md:mb-50 mb-20 overflow-hidden pb-30 ">
 
   {/* Background Vector */}
-  <div className="absolute top-0 left-1/2 -translate-x-1/2 md:w-[55%] md:h-[55%] w-[100%] h-[55%] bg-[url('/assets/vector.png')] bg-center bg-no-repeat md:bg-contain bg-cover -z-10 md:mt-150 mt-110"></div>
+  <div className="absolute top-0 left-1/2 -translate-x-1/2 md:w-[55%] md:h-[55%] w-[100%] h-[53%] bg-[url('/assets/vector.png')] bg-center bg-no-repeat md:bg-contain bg-cover -z-10 md:mt-150 mt-110"></div>
 
   <h2 className="text-[#BF9772] md:text-[20px] text-[15px] text-center font-jacques-francois">
     Celebrations
@@ -117,9 +117,9 @@ export default function About() {
     </button> */}
   </div>
 
-  <h2 className="text-[#4D4635] md:text-[14px] text-[12px] text-center font-montserrat mt-12">
+  {/* <h2 className="text-[#4D4635] md:text-[14px] text-[12px] text-center font-montserrat mt-12">
     GUJARAT · INDIA · 2026
-  </h2>
+  </h2> */}
 </div>
 
 
