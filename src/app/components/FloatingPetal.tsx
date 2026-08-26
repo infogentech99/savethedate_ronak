@@ -16,7 +16,7 @@ export default function FloatingPetal({
 
     const duration = isDesktop
       ? 40 + Math.random() * 30   // longer for desktop
-      : 60 + Math.random() * 5;
+      : 40 + Math.random() * 15;
       
     const delay = Math.random() * 10;
 
