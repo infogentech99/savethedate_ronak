@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div
       className="bg-[url('/assets/about_bg.png')] bg-white
-    bg-cover bg-no-repeat bg-top md:bg-center w-full overflow-hidden relative"
+    bg-cover bg-no-repeat bg-top md:bg-center w-full overflow-hidden relative z-0"
     >
       <div className="md:pb-0 lg:pb-0 relative z-10">
         <div className="flex flex-col justify-center items-center  md:mt-30 mt-0 md:mb-50 mb-20">
@@ -67,7 +67,7 @@ export default function About() {
         <div className="relative flex flex-col justify-center items-center md:mt-60 mt-40 md:mb-50 mb-20 overflow-hidden pb-30 ">
           <div
             className="absolute top-0 left-1/2 -translate-x-1/2 md:w-[55%] md:h-[55%] w-[100%] h-[53%] bg-[url('/assets/vector.png')] bg-center bg-no-repeat md:bg-contain
-   bg-cover z-0 md:mt-150 mt-110"
+   bg-cover z-10 md:mt-150 mt-110"
           ></div>
 <div className="z-100 flex flex-col items-center">
           <h2 className="text-[#BF9772] md:text-[20px] text-[15px] text-center font-jacques-francois">
