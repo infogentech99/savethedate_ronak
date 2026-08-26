@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import "tailwindcss";
 
@@ -29,6 +32,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.font-koh-santepheap-thin {
+  font-family: "Koh Santepheap", serif;
+}
+
+.font-playfair-display {
+  font-family: "Playfair Display", serif;}
+
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;}
 
 .font-jacques-francois {
   font-family: "Jacques Francois", serif;
