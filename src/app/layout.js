@@ -13,19 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://savethedatehindu-v1.vercel.app/"),
+  metadataBase: new URL("https://savethedate-ronak.vercel.app/"),
 
   openGraph: {
-    title: "Ramesh Weds Nikita",
-    description: "Join as they begin their forever. 27 November, 2026",
-    url: "https://savethedatehindu-v1.vercel.app/",
+    title: "Ronak & Sujal",
+    description: "Join as they begin their forever. 30 August, 2026",
+    url: "https://savethedate-ronak.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Ramesh Weds Nikita",
+        alt: "Ronak & Sujal",
       },
     ],
     type: "website",
@@ -34,13 +34,13 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Ramesh Weds Nikita",
-    description: "Join as they begin their forever.  27 November, 2026",
+    title: "Ronak & Sujal",
+    description: "Join as they begin their forever.  30 August, 2026",
     images: ["/og.jpg"],
   },
 
  other: {
-    "og:image:secure_url": "https://savethedatehindu-v1.vercel.app/og.jpg",
+    "og:image:secure_url": "https://savethedate-ronak.vercel.app/og.jpg",
     "og:image:type": "image/jpeg",
   },
 
