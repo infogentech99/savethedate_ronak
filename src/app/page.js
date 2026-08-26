@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState, useRef } from "react";
 import About from "../app/components/About";
 import CountdownSection from "../app/components/CountdownSection";
-
+import RoseHeroTemp from "../app/components/RoseHeroTemp";
 export default function Home() {
   const audioRef = useRef(null);
   const [started, setStarted] = useState(false);
@@ -71,6 +71,7 @@ export default function Home() {
           preload="auto"
           playsInline
         />
+         <RoseHeroTemp />
         <div className="md:pb-50 lg:pb-30 relative z-10 pb-24 ">
           <div className="flex flex-col justify-center items-center  md:mt-50 mt-20 md:mb-50 mb-20">
             <h2 className="text-[#BF9772] md:text-2xl text-2xl  lg:text-7xl font-koh-santepheap-thin leading-12 md:leading-16 uppercase">
